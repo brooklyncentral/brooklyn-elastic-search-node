@@ -8,7 +8,7 @@ brooklyn.catalog:
   description: Test that Elastic Search Node is running correctly
   item:
     services:
-    - type: com.canopy.compose.elasticsearch
+    - type: brooklyn-elastic-search-node
       id: parent-app
 
     - type: test-case
