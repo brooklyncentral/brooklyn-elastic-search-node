@@ -13,7 +13,7 @@ brooklyn.catalog:
 
     - type: test-case
       brooklyn.config:
-        targetId: childid
+        targetId: parent-app
         targetResolutionTimeout: 10s
         timeout: 20m
         
